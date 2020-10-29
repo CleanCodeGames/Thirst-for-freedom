@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Монстры">
+      <UniqueIdentifier>{f7c1022b-dfaf-44e8-bcc9-3d7b068fef3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Нейтральные">
+      <UniqueIdentifier>{3f2254a5-68a5-4126-b607-e224b81da877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Монстры">
+      <UniqueIdentifier>{8e7a7d05-c44b-4599-8166-20ec75977f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Игрок">
+      <UniqueIdentifier>{fc5d2e31-dd1c-4914-bfd8-de32fec5820d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Игрок">
+      <UniqueIdentifier>{958ea228-8f43-453c-a377-4346e8543a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Системные">
+      <UniqueIdentifier>{edf902c1-5cdd-461e-9a18-f04358e7da5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Системные">
+      <UniqueIdentifier>{212aa84e-47b6-45b4-9059-13d267b90cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Интерфейс">
+      <UniqueIdentifier>{47af61a4-a21b-4f61-b8aa-c6720f18d19d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Интерфейс">
+      <UniqueIdentifier>{cd202b04-7a04-473f-8702-04b82b9eb34e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Окружение">
+      <UniqueIdentifier>{d48de3d2-a430-4ffa-82b9-d1ba8198117d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Окружение">
+      <UniqueIdentifier>{25fb3c83-9359-49ae-931e-175acb1fc11a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Нейтральные">
+      <UniqueIdentifier>{f8293726-3df3-4868-83f8-090acc75b68a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Arnold.h">
+      <Filter>Заголовочные файлы\Игрок</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Заголовочные файлы\Системные</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Заголовочные файлы\Системные</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Заголовочные файлы\Системные</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Заголовочные файлы\Системные</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Заголовочные файлы\Интерфейс</Filter>
+    </ClInclude>
+    <ClInclude Include="Sun.h">
+      <Filter>Заголовочные файлы\Окружение</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Заголовочные файлы\Системные</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Заголовочные файлы\Системные</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Заголовочные файлы\Окружение</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob.h">
+      <Filter>Заголовочные файлы\Монстры</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Arnold.cpp">
+      <Filter>Файлы исходного кода\Игрок</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Файлы исходного кода\Системные</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Файлы исходного кода\Системные</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Файлы исходного кода\Системные</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Файлы исходного кода\Системные</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Файлы исходного кода\Интерфейс</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Файлы исходного кода\Системные</Filter>
+    </ClCompile>
+    <ClCompile Include="Sun.cpp">
+      <Filter>Файлы исходного кода\Окружение</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Файлы исходного кода\Системные</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Файлы исходного кода\Окружение</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob.cpp">
+      <Filter>Файлы исходного кода\Монстры</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

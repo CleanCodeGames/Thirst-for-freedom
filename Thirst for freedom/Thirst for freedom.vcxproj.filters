@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Button.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Sun.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>CPP\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Arnold.cpp">
+      <Filter>CPP\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Button.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Sun.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>HEADER\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Arnold.h">
+      <Filter>HEADER\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CPP">
+      <UniqueIdentifier>{91c16f42-5335-4dc3-9271-8287290f2e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HEADER">
+      <UniqueIdentifier>{8dc2bee9-83c2-421f-8600-65f183daaf57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP\Unit">
+      <UniqueIdentifier>{4934dad9-9dce-4212-a495-4afe20f6d28a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HEADER\Unit">
+      <UniqueIdentifier>{60848db1-bb38-4c26-a04b-8de53d71a9c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
